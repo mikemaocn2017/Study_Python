@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>28d44b44-70a6-493c-9d87-350862e3a727</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HelloWorld.py</StartupFile>
+    <StartupFile>OpenCV.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="HelloWorld.py" />
+    <Compile Include="OpenCV.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
